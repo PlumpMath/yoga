@@ -1,0 +1,80 @@
+body{
+    background: white;
+    color: #222222;
+    padding: 20px;
+}
+
+.logo {
+    width: 523px;
+    height: 42px;
+    background: url('../img/logo_black.png');
+    text-align: center;
+    margin: 2em auto;
+    font-family: Helvetica;
+    font-size: 24px;
+    color: #222222;
+    font-weight: bold;
+}
+
+.full-img {
+    max-width: 100%;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    overflow: auto;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+.testimonials {
+    width: 80%;
+    margin: 3em auto;
+    font-family: 'Crimson Text', serif;
+    font-size: 17px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+
+.prayer {
+    margin: 1em auto;
+    max-width: 90%;
+    text-align: center;
+}
+
+.nav-link {
+    padding: 1em;
+    border: 2px solid white;
+    width: 70%;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 1em auto;
+    font-family: "Helvetica Neue";
+    font-weight: 200;
+    font-kerning: auto;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+.nav-link.selected {
+    color: #f2b44c;
+    background-color: white;
+}
+
+.wrapper {
+    width: 61.8%;
+    overflow: hidden;
+    padding: 1em;
+}
+
+.nav{
+    position:fixed;
+    top:0;
+    right:0;
+    width: 38.2%;
+    background-color: #f2b44c;
+    height:100%;
+    padding-top: 2em;
+
+}
