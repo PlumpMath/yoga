@@ -1,0 +1,96 @@
+body {
+  white: #fff;
+  blue: #052fff;
+  green: #0ce871;
+  yellow: #fff200;
+  orange: #e85e0c;
+  pink: #dc00ff;
+  c1: #9af;
+  c2: #9efac8;
+  c3: #fffa99;
+  c4: #fac09e;
+  c5: #f199ff;
+  background-color: #fff;
+  margin: 0;
+}
+.logo {
+  width: 523px;
+  height: 42px;
+  background: url("../img/logo_black.png");
+  text-align: center;
+  margin: 2em auto;
+  font-family: Helvetica;
+  font-size: 24px;
+  color: #222;
+  font-weight: bold;
+}
+.full-img {
+  max-width: 100%;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  overflow: auto;
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+section {
+  width: 80%;
+  margin: 3em auto;
+  font-family: 'Crimson Text', serif;
+  font-size: 21px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+section h1 {
+  text-align: center;
+}
+section:p:first-letter {
+  font-size: 50px;
+}
+.prayer {
+  margin: 1em auto;
+  max-width: 90%;
+  text-align: center;
+}
+.nav-link {
+  padding: 1em;
+  border: 2px solid #fff;
+  width: 70%;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 1em auto;
+  font-family: "Helvetica Neue";
+  font-weight: 200;
+  font-kerning: auto;
+  cursor: pointer;
+  color: #fff;
+}
+.nav-link.selected {
+  color: #f2b44c;
+  background-color: #fff;
+}
+.wrapper {
+  width: 60%;
+  overflow: hidden;
+  padding: 2em;
+}
+.nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 38.2%;
+  background-color: #f2b44c;
+  height: 100%;
+  padding-top: 2em;
+}
+a {
+  text-decoration: none;
+}
+.yoga-class {
+  margin: 1em auto;
+  text-align: center;
+}
+.yoga-class .yoga-class-title {
+  font-weight: bold;
+}
