@@ -54,6 +54,7 @@ figcaption {
 }
 .testimonials p {
   margin-bottom: 3em;
+  font-style: italic;
 }
 .testimonials i {
   font-weight: bold;
