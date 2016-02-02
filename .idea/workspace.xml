@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6bb35cf1-a8da-4904-bdbf-cfec779ac622" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.styl" afterPath="$PROJECT_DIR$/css/style.styl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="yoga.iws" />
@@ -62,8 +59,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6954315">
-              <caret line="81" column="20" selection-start-line="81" selection-start-column="20" selection-end-line="81" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.46700507">
+              <caret line="112" column="128" selection-start-line="112" selection-start-column="128" selection-end-line="112" selection-end-column="128" />
               <folding>
                 <element signature="n#style#0;n#iframe#0;n#div#0;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -355,8 +352,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6954315">
-          <caret line="81" column="20" selection-start-line="81" selection-start-column="20" selection-end-line="81" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.46700507">
+          <caret line="112" column="128" selection-start-line="112" selection-start-column="128" selection-end-line="112" selection-end-column="128" />
           <folding>
             <element signature="n#style#0;n#iframe#0;n#div#0;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
