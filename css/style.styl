@@ -86,24 +86,25 @@ figcaption
     text-align: center;
 }
 
-.nav-link {
+
+.nav-link
+    bg: #f2b44c;
+    fg: white;
     padding: 1em;
-    border: 2px solid white;
+    border: 2px solid @fg;
     width: 70%;
     text-align: center;
     text-transform: uppercase;
     margin: 1em auto;
     font-family: "Helvetica Neue";
-    font-weight: 200;
+    font-weight: 300;
     font-kerning: auto;
     cursor: pointer;
-    color: #FFFFFF;
-}
+    color: @fg;
+    .selected
+        color: @bg;
+        background-color: @fg;
 
-.nav-link.selected {
-    color: #f2b44c;
-    background-color: white;
-}
 
 .wrapper {
     width: 60%;
