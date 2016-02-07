@@ -7,13 +7,17 @@ body {
   pink: #dc00ff;
   c1: #9af;
   c2: #9efac8;
-  c3: #fffa99;
+  c3: #fff64d;
   c4: #fac09e;
   c5: #f199ff;
-  background-color: #fff;
+  fg: #f07000;
+  bg: #4f0000;
+  font-size: 16px;
+  background-color: #4f0000;
   margin: 0;
+  padding: 3.5em;
 }
-.logo {
+body .logo {
   width: 523px;
   height: 42px;
   background: url("../img/logo_black.png");
@@ -24,7 +28,7 @@ body {
   color: #222;
   font-weight: bold;
 }
-.full-img {
+body .full-img {
   max-width: 100%;
   bottom: 0;
   left: 0;
@@ -34,81 +38,103 @@ body {
   right: 0;
   top: 0;
 }
-section {
-  width: 80%;
-  margin: 8em auto 3em auto;
+body section {
+  width: 68%;
+  margin: 4em auto 5em auto;
   font-family: 'Crimson Text', serif;
   font-size: 21px;
   text-align: justify;
   text-justify: inter-word;
 }
-section h1 {
+body section h1 {
   text-align: center;
 }
-.first-caps:first-letter {
+body .first-caps:first-letter {
   font-size: 50px;
 }
-figcaption {
+body figcaption {
   font-family: 'Crimson Text', serif;
   font-size: 16px;
 }
-.testimonials p {
+body .testimonials p {
   margin-bottom: 3em;
   font-style: italic;
 }
-.testimonials i {
+body .testimonials i {
   font-weight: bold;
 }
-.contact-form {
+body .contact-form {
   margin: 0 auto;
   width: 300px;
   text-align: center;
 }
-.prayer {
+body .prayer {
   margin: 1em auto;
   max-width: 90%;
   text-align: center;
 }
-.nav-link {
-  bg: #f2b44c;
-  fg: #fff;
+body .nav-link {
   padding: 1em;
-  border: 2px solid #fff;
+  border-top: none;
+  border-left: none;
+  border-right: none;
   width: 70%;
-  text-align: center;
+  text-align: left;
   text-transform: uppercase;
-  margin: 1em auto;
+  margin: 0 auto 0 auto;
   font-family: "Helvetica Neue";
-  font-weight: 300;
+  font-size: 1.1em;
+  font-weight: 500;
+  letter-spacing: 1px;
   font-kerning: auto;
   cursor: pointer;
-  color: #fff;
+  color: #f07000;
+  text-shadow: 1px 1px 1px #000;
 }
-.nav-link .selected {
-  color: #f2b44c;
+body .nav-link .selected {
+  color: #4f0000;
+  background-color: #f07000;
+}
+body .wrapper {
+  width: 68%;
   background-color: #fff;
-}
-.wrapper {
-  width: 60%;
   overflow: hidden;
   padding: 2em;
+  -webkit-box-shadow: outline 0px 7px 86px 43px;
+  -moz-box-shadow: outline 0px 7px 86px 43px #4f0000;
+  box-shadow: outline 0px 7px 86px 43px;
 }
-.nav {
+body .nav {
   position: fixed;
-  top: 0;
+  top: 0.5em;
   right: 0;
-  width: 38.2%;
-  background-color: #f2b44c;
+  width: 27%;
+  background-color: #4f0000;
   height: 100%;
   padding-top: 2em;
+  -webkit-box-shadow: inset 0px 7px 86px 43px #4f0000;
+  -moz-box-shadow: inset 0px 7px 86px 43px #4f0000;
+  box-shadow: inset 0px 7px 86px 43px #4f0000;
 }
-a {
+body a {
   text-decoration: none;
 }
-.yoga-class {
+body .yoga-class {
   margin: 1em auto;
   text-align: center;
 }
-.yoga-class .yoga-class-title {
+body .yoga-class .yoga-class-title {
   font-weight: bold;
+}
+body .yoga-asana {
+  text-align: center;
+  margin: auto;
+}
+body .yoga-asanas {
+  margin: 1em auto;
+  text-align: center;
+}
+body .yoga-asanas img {
+  margin: -2px;
+  padding: 0;
 }
