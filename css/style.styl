@@ -32,7 +32,7 @@ body
     font-size: 16px;
     background-color: @bg;
     margin: 0;
-    padding: 3.5em;
+    padding: 4.5em;
     //border: 45px solid @bg
     //border-left: 100px solid @bg;
 
@@ -41,11 +41,13 @@ body
     .logo {
         width: 523px;
         height: 42px;
-        background: url('../img/logo_black.png');
+        //background: url('../img/logo_black.png');
         text-align: center;
         margin: 2em auto;
-        font-family: Helvetica;
-        font-size: 24px;
+        font-family: "Crimson Text";
+        font-variant: small-caps;
+        font-size: 48px;
+        letter-spacing 1px;
         color: #222222;
         font-weight: bold;
     }
@@ -70,6 +72,9 @@ body
         text-justify: inter-word;
         h1
             text-align center
+
+    .first-caps
+        line-height: 30px
 
     .first-caps:first-letter {
         font-size: 50px;
@@ -97,13 +102,34 @@ body
     }
 
 
+    .wrapper {
+        width: 75%;
+        background-color: @white;
+        overflow: hidden;
+        padding: 2em;
+        -webkit-box-shadow: outline  0px 7px 86px 43px @black;
+        -moz-box-shadow: outline  0px 7px 86px 43px @bg;
+        box-shadow: outline  0px 7px 86px 43px @black;
+    }
+
+    .nav
+        position: fixed;
+        top: 1em;
+        right: 0;
+        width: 20%;
+        background-color: @bg;
+        height: 100%;
+        padding-top: 2em;
+        -webkit-box-shadow: inset 0px 7px 86px 43px @bg;
+        -moz-box-shadow: inset 0px 7px 86px 43px @bg;
+        box-shadow: inset 0px 7px 86px 43px @bg;
+
     .nav-link
-        padding: 0.8em;
+        padding: 0.618em;
         //border: 1px solid @fg;
         border-top: none;
         border-left: none;
         border-right: none;
-
         //width: 70%;
         text-align: left;
         text-transform: uppercase;
@@ -120,28 +146,6 @@ body
             color: @bg;
             background-color: @fg;
 
-
-    .wrapper {
-        width: 68%;
-        background-color: @white;
-        overflow: hidden;
-        padding: 2em;
-        -webkit-box-shadow: outline  0px 7px 86px 43px @black;
-        -moz-box-shadow: outline  0px 7px 86px 43px @bg;
-        box-shadow: outline  0px 7px 86px 43px @black;
-    }
-
-    .nav
-        position: fixed;
-        top: 1em;
-        right: 0;
-        width: 27%;
-        background-color: @bg;
-        height: 100%;
-        padding-top: 2em;
-        -webkit-box-shadow: inset 0px 7px 86px 43px @bg;
-        -moz-box-shadow: inset 0px 7px 86px 43px @bg;
-        box-shadow: inset 0px 7px 86px 43px @bg;
 
     .om
         font-size: 4em

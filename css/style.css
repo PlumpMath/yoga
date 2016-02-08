@@ -15,16 +15,17 @@ body {
   font-size: 16px;
   background-color: #4f0000;
   margin: 0;
-  padding: 3.5em;
+  padding: 4.5em;
 }
 body .logo {
   width: 523px;
   height: 42px;
-  background: url("../img/logo_black.png");
   text-align: center;
   margin: 2em auto;
-  font-family: Helvetica;
-  font-size: 24px;
+  font-family: "Crimson Text";
+  font-variant: small-caps;
+  font-size: 48px;
+  letter-spacing: 1px;
   color: #222;
   font-weight: bold;
 }
@@ -48,6 +49,9 @@ body section {
 }
 body section h1 {
   text-align: center;
+}
+body .first-caps {
+  line-height: 30px;
 }
 body .first-caps:first-letter {
   font-size: 50px;
@@ -73,8 +77,29 @@ body .prayer {
   max-width: 90%;
   text-align: center;
 }
+body .wrapper {
+  width: 75%;
+  background-color: #fff;
+  overflow: hidden;
+  padding: 2em;
+  -webkit-box-shadow: outline 0px 7px 86px 43px;
+  -moz-box-shadow: outline 0px 7px 86px 43px #4f0000;
+  box-shadow: outline 0px 7px 86px 43px;
+}
+body .nav {
+  position: fixed;
+  top: 1em;
+  right: 0;
+  width: 20%;
+  background-color: #4f0000;
+  height: 100%;
+  padding-top: 2em;
+  -webkit-box-shadow: inset 0px 7px 86px 43px #4f0000;
+  -moz-box-shadow: inset 0px 7px 86px 43px #4f0000;
+  box-shadow: inset 0px 7px 86px 43px #4f0000;
+}
 body .nav-link {
-  padding: 0.8em;
+  padding: 0.618em;
   border-top: none;
   border-left: none;
   border-right: none;
@@ -92,27 +117,6 @@ body .nav-link {
 body .nav-link .selected {
   color: #4f0000;
   background-color: #f07000;
-}
-body .wrapper {
-  width: 68%;
-  background-color: #fff;
-  overflow: hidden;
-  padding: 2em;
-  -webkit-box-shadow: outline 0px 7px 86px 43px;
-  -moz-box-shadow: outline 0px 7px 86px 43px #4f0000;
-  box-shadow: outline 0px 7px 86px 43px;
-}
-body .nav {
-  position: fixed;
-  top: 1em;
-  right: 0;
-  width: 27%;
-  background-color: #4f0000;
-  height: 100%;
-  padding-top: 2em;
-  -webkit-box-shadow: inset 0px 7px 86px 43px #4f0000;
-  -moz-box-shadow: inset 0px 7px 86px 43px #4f0000;
-  box-shadow: inset 0px 7px 86px 43px #4f0000;
 }
 body .om {
   font-size: 4em;
